@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style type="text/css">
+    div {
+      width: 1350px;
+      height:500px;
+      background: red;
+      border-radius: 10px;
+      position: relative;
+      /*▼延迟2s才开始*/ /* ...-direction: normal reverse alternate*/
+      -webkit-animation-delay: 500ms;
+      -webkit-animation-direction: normal;
+      -webkit-animation-name: colorfulframes;
+      -webkit-animation-duration: 8s;
+      -webkit-animation-iteration-count: infinite; 
+      
+    }
+    
+    @-webkit-keyframes colorfulframes { /*Chrome, Opera, Firefox, Edge*/
+      0% {
+        background: red;
+      }
+
+      10% {
+        background: orange;
+      }
+
+      20% {
+        background: yellow;
+      }
+
+      30% {
+        background: greenyellow;
+      }
+
+      40% {
+        background: limegreen;
+      }
+
+      50% {
+        background: forestgreen;
+      }
+
+      60% {
+        background: darkcyan;
+      }
+
+      70% {
+        background: cyan;
+      }
+
+      80% {
+        background: blue;
+      }
+
+      90% {
+        background: magenta;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <div><marquee scrolldelay="50" direction="right" hspace="100px" height=40 width=60% bgcolor=aaeeaa>
+本域名为itzouch.com  </br>网站建设中 Q 5011190  
+
+</marquee>	</div>
+
+<embed src="岁月神偷.mp3" width="1350" height="100" autostart="true" loop="true" hidden="false" palette=pink|blue></embed>
+</body>
+
+</html>
